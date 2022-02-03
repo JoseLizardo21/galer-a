@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 35px;
+    color: rgba(25, 70, 153, 0.924);
+}
+
+.menu{
+    background-color: rgba(37, 37, 37, 0.178);
+    height: 40px;
+}
+.lista-menu{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.items-menu{
+    display: inline-flex;
+    font-size: 1.5vw;
+    font-family: 'Anton', sans-serif;
+    color: rgb(77, 77, 100);
+    cursor: pointer;
+}
+#contenedor{
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#imagen_prev{
+    height: 100%;
+    width: 300px;
+    
+}
+#btn_subir_img{
+    height: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+#previsualizador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:300px;
+    height: 300px;
+    border: 1px solid #999999;
+    background-color: blanchedalmond;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#caja_datos_fotos{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #999999;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+.imgs_albun{
+   width: 200px;
+   height: 220px;
+   padding: 1px;
+   border-bottom: 1px solid #999999;
+}
+.cajas_img{
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: rgba(38, 97, 224, 0.068);
+}
+.caja_datos_fotos{
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caja_btns{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.btn_del_img{
+    width: 90px;
+    border-color: beige;
+}
+.icon_bas{
+    width: 16px;
+}
