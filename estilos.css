@@ -48,6 +48,9 @@ header{
     height: 30px;
     font-size: 1rem;
     cursor: pointer;
+    outline: 0;
+    border: 0;
+    background-color: rgb(41, 163, 41);
 }
 #previsualizador{
     display: flex;
@@ -56,15 +59,17 @@ header{
     width:300px;
     height: 300px;
     border: 1px solid #999999;
-    background-color: blanchedalmond;
+    color: white;
+    background-color: rgb(33, 33, 32);
     margin-right: 20px;
     margin-left: 20px;
 }
 #caja_datos_fotos{
     display: flex;
     flex-direction: column;
-    border: 1px solid #999999;
-    background-color: blanchedalmond;
+    border: 1px solid #ffffff;
+    background-color: rgb(33, 33, 32);
+    color: white;
     text-align: center;
 }
 .imgs_albun{
@@ -75,16 +80,27 @@ header{
 }
 .cajas_img{
     height: 300px;
-    margin-top: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     margin-left: 20px;
     background-color: rgba(38, 97, 224, 0.068);
 }
 .caja_datos_fotos{
-    height: 45px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+}
+#titulo{
+    background-color: rgba(132, 132, 132, 0);
+    color: white;
+    border: 0;
+    outline: 0;
+}
+.area-text{
+    background-color: rgba(132, 132, 132, 0);
+    color: white;
+    outline: 0;
+    border: 0;
 }
 .caja_btns{
     width: 200px;

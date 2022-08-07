@@ -87,9 +87,9 @@ function cj_agr_img(){
 
                 <div id="caja_datos_fotos"  style="width:300px; height: 300px;">
                 <label for="título">Título de la foto</label>
-                <input type="text" id="titulo" name="titulo" style="background-color: blanchedalmond;border: 0; text-align: center;>
+                <input type="text" id="titulo" name="titulo" style="border: 0; text-align: center;" placeholder="Escribe aquí...">
                 <label for="btn_subir_img" style="height:30px">Escribe un recordatorio o un comentario</label>
-                <textarea style="background-color: blanchedalmond; border: 0; height:240px; resize:none; text-align: center;"></textarea>
+                <textarea style="border: 0; height:240px; resize:none; text-align: center;" placeholder="Escribe aquí..." class="area-text"></textarea>
                 <button type="button" id="btn_subir_img">Subir foto</button>
                 </div>`;
   let archivos = document.getElementById("archivos");
